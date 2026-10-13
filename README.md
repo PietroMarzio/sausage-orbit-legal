@@ -1,14 +1,12 @@
 # Sausage Orbit, sito legale e di supporto
 
-Sito pubblico del gioco iOS **Sausage Orbit: Space Dash**, pubblicato con GitHub Pages.
-App Store Connect richiede gli URL della privacy policy e del supporto prima del primo invio.
+Sito pubblico del gioco iOS **Sausage Orbit: Space Dash**, pubblicato con GitHub Pages su
+`https://pietromarzio.github.io/sausage-orbit-legal/`.
 
-Struttura prevista, in italiano e inglese:
+- `index.html` e `it/index.html`: supporto (contatto, domande frequenti), Support URL dello store
+- `privacy/` e `it/privacy/`: privacy policy (PostHog, AdMob, acquisti Apple)
+- `style.css`: stile comune
 
-- `index.html`: supporto (contatto, domande frequenti)
-- `privacy/`: privacy policy
-- `terms/`: termini d'uso
-- `app-version.json`: `latestVersion` e `minimumSupportedVersion`, che l'app legge all'avvio
-
-I contenuti si scrivono quando sono note pubblicità e acquisti del gioco: la privacy policy deve
-descrivere ciò che l'app fa davvero.
+La privacy policy descrive ciò che l'app fa davvero: si aggiorna, con la data in alto, ogni volta
+che cambia il modo in cui l'app tratta i dati. `app-ads.txt` non sta qui ma nel repo
+`PietroMarzio.github.io`, perché AdMob lo cerca alla radice del dominio.

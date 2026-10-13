@@ -1,0 +1,35 @@
+/* Sausage Orbit legal and support site. One dark space look, like the game. */
+:root {
+  --bg: #0b1026;
+  --panel: #141b3a;
+  --line: #27305c;
+  --fg: #eef0fb;
+  --muted: #a9b0d6;
+  --accent: #d6f04a;
+  --link: #9fd3ff;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg) radial-gradient(circle at 80% -10%, #26306b 0, transparent 45%) no-repeat;
+  color: var(--fg);
+  font: 17px/1.6 ui-rounded, -apple-system, "SF Pro Rounded", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  padding-inline: 16px;
+}
+main { max-width: 42rem; margin: 0 auto; padding-block: 32px 64px; }
+header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+.brand { color: var(--accent); font-weight: 800; letter-spacing: 0.02em; text-decoration: none; }
+nav { display: flex; flex-wrap: wrap; gap: 16px; font-size: 15px; }
+h1 { font-size: 2rem; line-height: 1.2; margin: 32px 0 4px; text-wrap: balance; }
+h2 { font-size: 1.2rem; margin: 36px 0 8px; color: var(--accent); text-wrap: balance; }
+h3 { font-size: 1rem; margin: 20px 0 4px; }
+p, li { color: var(--fg); }
+.meta { color: var(--muted); font-size: 15px; margin: 0; }
+a { color: var(--link); }
+ul { padding-left: 1.2em; }
+li { margin-bottom: 6px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 4px 20px; margin-top: 24px; }
+.email { font-weight: 700; user-select: all; overflow-wrap: anywhere; }
+footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
