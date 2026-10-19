@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "interstitialEvery": 3,
+  "interstitialGapSeconds": 90,
+  "adGraceDays": 1,
+  "adDailyCap": 6,
+  "shortRunSeconds": 15,
+  "levelContinue": true,
+  "helpAfterLosses": 3,
+  "monthDaysNeeded": 20,
+  "dailyRunMaxKibble": 200
+}

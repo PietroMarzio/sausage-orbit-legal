@@ -10,3 +10,7 @@ Sito pubblico del gioco iOS **Sausage Orbit: Space Dash**, pubblicato con GitHub
 La privacy policy descrive ciò che l'app fa davvero: si aggiorna, con la data in alto, ogni volta
 che cambia il modo in cui l'app tratta i dati. `app-ads.txt` non sta qui ma nel repo
 `PietroMarzio.github.io`, perché AdMob lo cerca alla radice del dominio.
+
+`config/v1.json`: game settings read by the app at launch (`RemoteConfig` in the game's repo). Every
+field is optional; the app clamps values to safe ranges. Change a number, push, and players get it
+at their next launch.
